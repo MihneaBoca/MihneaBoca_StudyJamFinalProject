@@ -58,4 +58,22 @@
             android:text="-you may even make some new friends"
             android:textColor="#FFFFFF"/>
     </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nr. 3"
+        android:background="#FFD54F"
+        android:onClick="showThree"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nr. 1"
+        android:background="#FFD54F"
+        android:onClick="showThree"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        />
 </RelativeLayout>

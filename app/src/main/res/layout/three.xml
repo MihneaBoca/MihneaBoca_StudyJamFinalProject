@@ -53,4 +53,22 @@
             android:text="-you can spend more time watching the other players every move"
             android:textColor="#FFFFFF"/>
     </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nr. 4"
+        android:background="#FFD54F"
+        android:onClick="showFour"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nr. 2"
+        android:background="#FFD54F"
+        android:onClick="showFour"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        />
 </RelativeLayout>
