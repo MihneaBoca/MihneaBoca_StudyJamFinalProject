@@ -59,9 +59,15 @@
         android:layout_height="wrap_content"
         android:text="Nr. 2"
         android:background="#FFD54F"
-        android:id="@+id/one"
         android:onClick="showTwo"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:background="#FFD54F"
+        android:onClick="showTwo"
         />
 </RelativeLayout>

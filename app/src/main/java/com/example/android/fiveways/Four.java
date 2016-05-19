@@ -25,5 +25,9 @@ public class Four extends Activity {
             Intent intent = new Intent(this, Five.class);
             startActivity(intent);
         }
+        else if (button_text.equals("Home")) {
+            Intent intent = new Intent(this, MainActivity.class);
+            startActivity(intent);
+        }
     }
 }
