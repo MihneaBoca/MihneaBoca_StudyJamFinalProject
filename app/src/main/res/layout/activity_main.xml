@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#4DB6AC"
+    android:fillViewport="true"
     tools:context="com.example.android.fiveways.MainActivity">
 <RelativeLayout
     android:layout_width="match_parent"
@@ -13,6 +14,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:background="#4DB6AC"
+
     >
 
     <TextView
@@ -73,7 +75,18 @@
             android:layout_below="@id/one"
             android:layout_marginTop="230dp"
             android:background="#FFD54F"
-            android:onClick="showOne"/>
+            android:onClick="showOne" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Exit"
+            android:background="#FFD54F"
+            android:id="@+id/btn1"
+            android:onClick="showOne"
+            android:layout_marginTop="340dp"
+            android:layout_below="@id/one"
+            />
+
     </RelativeLayout>
 
 </RelativeLayout>
