@@ -1,0 +1,2 @@
+# MihneaBoca_StudyJamFinalProject
+Proiectul este despre cum poti sa castigi la toate jocurile. Atunci cand deschizi aplicatia apar cinci butoane cu diferitele feluri de a castiga la un joc si fiecare buton deschide cate o pagina si fiecare pagina are, la randul ei, cateva butoane care te ajuta sa alternezi intre diferitele pagini. Am adaugat un buton pe fiecare pagina care returneaza utilizator la pagina principala. De asemenea, fiercare pagina are cate o imagine care ilustreaza metoda respectiva.
