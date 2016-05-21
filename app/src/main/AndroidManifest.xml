@@ -5,7 +5,7 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="Five Ways To Win At Any Game"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
@@ -20,6 +20,7 @@
         <activity android:name=".Three"/>
         <activity android:name=".Four"/>
         <activity android:name=".Five"/>
+        <activity android:name=".Result"/>
     </application>
 
 </manifest>

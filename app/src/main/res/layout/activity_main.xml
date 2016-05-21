@@ -79,12 +79,22 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:text="Result"
+            android:background="#FFD54F"
+            android:id="@+id/btn2"
+            android:onClick="showOne"
+            android:layout_marginTop="340dp"
+            android:layout_below="@id/one"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:text="Exit"
             android:background="#FFD54F"
             android:id="@+id/btn1"
             android:onClick="showOne"
-            android:layout_marginTop="340dp"
-            android:layout_below="@id/one"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/btn2"
             />
 
     </RelativeLayout>
