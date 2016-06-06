@@ -15,15 +15,14 @@ public class One extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.one);
     }
-    public void showTwo(View view)
-    {String button_text;
-        button_text=((Button) view).getText().toString();
-        if(button_text.equals("Nr. 2"))
-        {Intent intent = new Intent(this,Two.class);
-            startActivity(intent);}
-        else if (button_text.equals("Home")) {
-            Intent intent = new Intent(this, MainActivity.class);
-            startActivity(intent);
-        }
-}
+
+    public void showPageTwo(View view) {
+        Intent intent = new Intent(this, Two.class);
+        startActivity(intent);
+    }
+
+    public void getHome(View View) {
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
 }

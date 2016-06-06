@@ -75,7 +75,7 @@
         android:layout_height="wrap_content"
         android:text="Nr. 4"
         android:background="#FFD54F"
-        android:onClick="showSix"
+        android:onClick="showPageFour"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         />
@@ -84,7 +84,7 @@
         android:layout_height="wrap_content"
         android:text="Home"
         android:background="#FFD54F"
-        android:onClick="showSix"
+        android:onClick="getHome"
         />
 </RelativeLayout>
 </ScrollView>

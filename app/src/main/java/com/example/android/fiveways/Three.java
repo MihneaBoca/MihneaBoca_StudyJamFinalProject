@@ -15,19 +15,18 @@ public class Three extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.three);
     }
-    public void showFour(View view) {
-        String button_text;
-        button_text = ((Button) view).getText().toString();
-        if (button_text.equals("Nr. 2")) {
-            Intent intent = new Intent(this, Two.class);
-            startActivity(intent);
-        } else if (button_text.equals("Nr. 4")) {
-            Intent intent = new Intent(this, Four.class);
-            startActivity(intent);
-        }
-        else if (button_text.equals("Home")) {
-            Intent intent = new Intent(this, MainActivity.class);
-            startActivity(intent);
-        }
+    public void showPageTwo(View view) {
+        Intent intent = new Intent(this, Two.class);
+        startActivity(intent);
+    }
+
+    public void showPageFour(View view) {
+        Intent intent = new Intent(this, Four.class);
+        startActivity(intent);
+    }
+
+    public void getHome(View View) {
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
     }
 }

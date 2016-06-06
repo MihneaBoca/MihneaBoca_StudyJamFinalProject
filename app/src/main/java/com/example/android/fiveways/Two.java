@@ -16,19 +16,18 @@ public class Two extends Activity {
         setContentView(R.layout.two);
     }
 
-    public void showThree(View view) {
-        String button_text;
-        button_text = ((Button) view).getText().toString();
-        if (button_text.equals("Nr. 1")) {
-            Intent intent = new Intent(this, One.class);
-            startActivity(intent);
-        } else if (button_text.equals("Nr. 3")) {
-            Intent intent = new Intent(this, Three.class);
-            startActivity(intent);
-        }
-        else if (button_text.equals("Home")) {
-            Intent intent = new Intent(this, MainActivity.class);
-            startActivity(intent);
-        }
+    public void showPageOne(View view) {
+        Intent intent = new Intent(this, One.class);
+        startActivity(intent);
+    }
+
+    public void showPageThree(View view) {
+        Intent intent = new Intent(this, Three.class);
+        startActivity(intent);
+    }
+
+    public void getHome(View View) {
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
     }
 }

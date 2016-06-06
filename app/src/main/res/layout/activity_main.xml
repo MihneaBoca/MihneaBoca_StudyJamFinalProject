@@ -6,98 +6,102 @@
     android:background="#4DB6AC"
     android:fillViewport="true"
     tools:context="com.example.android.fiveways.MainActivity">
-<RelativeLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="#4DB6AC"
-
-    >
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Five Ways To Win At Any Game"
-        android:layout_centerHorizontal="true"
-        android:textSize="20sp"
-        android:id="@+id/title"
-        android:textColor="#FFFFFF"/>
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/title"
-        android:paddingTop="60dp"
-        android:paddingLeft="30dp"
-        android:paddingRight="30dp">
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Practice"
-        android:background="#FFD54F"
-        android:id="@+id/one"
-        android:onClick="showOne"
-        />
-        <Button
+        android:layout_height="match_parent"
+        android:background="#4DB6AC"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+
+        >
+
+        <TextView
+            android:id="@+id/title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Players"
-            android:layout_alignParentRight="true"
-            android:background="#FFD54F"
-            android:id="@+id/two"
-            android:onClick="showOne"
-            />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Hold Back"
-            android:layout_below="@id/one"
-            android:layout_marginTop="100dp"
-            android:background="#FFD54F"
-            android:onClick="showOne"/>
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Bluff"
-            android:layout_alignParentRight="true"
-            android:layout_below="@id/one"
-            android:layout_marginTop="100dp"
-            android:background="#FFD54F"
-            android:onClick="showOne"/>
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Cheat"
             android:layout_centerHorizontal="true"
-            android:layout_below="@id/one"
-            android:layout_marginTop="230dp"
-            android:background="#FFD54F"
-            android:onClick="showOne" />
-        <Button
+            android:text="Five Ways To Win At Any Game"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Result"
-            android:background="#FFD54F"
-            android:id="@+id/btn2"
-            android:onClick="showOne"
-            android:layout_marginTop="340dp"
-            android:layout_below="@id/one"
-            />
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Exit"
-            android:background="#FFD54F"
-            android:id="@+id/btn1"
-            android:onClick="showOne"
-            android:layout_marginTop="30dp"
-            android:layout_below="@id/btn2"
-            />
+            android:layout_below="@id/title"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="60dp">
+
+            <Button
+                android:id="@+id/one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#FFD54F"
+                android:onClick="showPage"
+                android:text="Practice" />
+
+            <Button
+                android:id="@+id/two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="#FFD54F"
+                android:onClick="showPage"
+                android:text="Players" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/one"
+                android:layout_marginTop="100dp"
+                android:background="#FFD54F"
+                android:onClick="showPage"
+                android:text="Hold Back" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/one"
+                android:layout_marginTop="100dp"
+                android:background="#FFD54F"
+                android:onClick="showPage"
+                android:text="Bluff" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/one"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="230dp"
+                android:background="#FFD54F"
+                android:onClick="showPage"
+                android:text="Cheat" />
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/one"
+                android:layout_marginTop="340dp"
+                android:background="#FFD54F"
+                android:onClick="showOne"
+                android:text="Result" />
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btn2"
+                android:layout_marginTop="30dp"
+                android:background="#FFD54F"
+                android:onClick="showOne"
+                android:text="Exit" />
+
+        </RelativeLayout>
 
     </RelativeLayout>
-
-</RelativeLayout>
 </ScrollView>

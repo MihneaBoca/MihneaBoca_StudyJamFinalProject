@@ -76,7 +76,7 @@
         android:layout_height="wrap_content"
         android:text="Nr. 5"
         android:background="#FFD54F"
-        android:onClick="showFive"
+        android:onClick="showPageFive"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         />
@@ -85,7 +85,7 @@
         android:layout_height="wrap_content"
         android:text="Nr. 3"
         android:background="#FFD54F"
-        android:onClick="showFive"
+        android:onClick="showPageThree"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         />
@@ -94,7 +94,7 @@
         android:layout_height="wrap_content"
         android:text="Home"
         android:background="#FFD54F"
-        android:onClick="showFive"
+        android:onClick="getHome"
         />
 </RelativeLayout>
 </ScrollView>

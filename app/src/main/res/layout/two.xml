@@ -41,7 +41,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Get to know the other players to lern more about them"
+            android:text="Get to know the other players to learn more about them"
             android:textColor="#FFFFFF"/>
         <TextView
             android:layout_width="wrap_content"
@@ -76,7 +76,7 @@
         android:layout_height="wrap_content"
         android:text="Nr. 3"
         android:background="#FFD54F"
-        android:onClick="showThree"
+        android:onClick="showPageThree"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         />
@@ -85,7 +85,7 @@
         android:layout_height="wrap_content"
         android:text="Nr. 1"
         android:background="#FFD54F"
-        android:onClick="showThree"
+        android:onClick="showPageOne"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         />
@@ -94,7 +94,7 @@
         android:layout_height="wrap_content"
         android:text="Home"
         android:background="#FFD54F"
-        android:onClick="showThree"
+        android:onClick="getHome"
         />
 </RelativeLayout>
 </ScrollView>
